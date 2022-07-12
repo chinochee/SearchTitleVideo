@@ -102,7 +102,7 @@ public class Tests
         _loggerSystem.Write(
             exist
                 ? $"Чтобы попасть на видеоролик {GetVideoTitle()} в названии необходимо сделать {currentStep} переходов"
-                : $"Не удалось найти Навания видеоролика по ключевому слову {SearchWordString}. Было потрачено на поиск {MaxStep} шагов");
+                : $"Не удалось найти название видеоролика по ключевому слову {SearchWordString}. Было потрачено на поиск {MaxStep} шагов");
     }
 
     [TearDown]
